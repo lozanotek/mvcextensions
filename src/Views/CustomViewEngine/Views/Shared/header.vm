@@ -1,0 +1,5 @@
+﻿<ul id="menu">
+    <li>$HtmlHelper.ActionLink("Index","Index")</li>
+    <li>$Html.ActionLink("About", "About")</li>
+    <li>$Html.ActionLink("Contact", "Contact")</li>
+</ul>
