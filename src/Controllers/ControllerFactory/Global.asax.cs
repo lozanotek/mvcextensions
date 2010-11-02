@@ -1,14 +1,11 @@
-﻿namespace ControllerFactory
-{
+﻿namespace ControllerFactory {
     using System.Web;
     using System.Web.Mvc;
     using System.Web.Routing;
     using Controllers;
 
-    public class MvcApplication : HttpApplication
-    {
-        public static void RegisterRoutes(RouteCollection routes)
-        {
+    public class MvcApplication : HttpApplication {
+        public static void RegisterRoutes(RouteCollection routes) {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
@@ -18,10 +15,9 @@
                 );
         }
 
-        protected void Application_Start()
-        {
+        protected void Application_Start() {
             RegisterRoutes(RouteTable.Routes);
-            ControllerBuilder.Current.SetControllerFactory(new MyControllerFactory());
+            ControllerBuilder.Current.SetControllerFactory(new CustomControllerFactory());
         }
     }
 }
