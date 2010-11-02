@@ -23,8 +23,8 @@
         <p>
       <label for="LastName">
         Birthdate:</label>
-        <input type="text" maxlength="2" size="2" id="day" name="day" style="width:20px;" /> /
         <input type="text" maxlength="2" size="2" id="month" name="month" style="width:20px;" /> /
+        <input type="text" maxlength="2" size="2" id="day" name="day" style="width:20px;" /> /
         <input type="text" maxlength="4" size="4" id="year" name="year" style="width:50px;" />
     </p>
 
