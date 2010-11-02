@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerFactory", "Controllers\ControllerFactory\ControllerFactory.csproj", "{287DD339-22B3-4E0D-8879-524C81654FB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{96EA6C29-6372-4F87-A015-24AC17AC0E3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{287DD339-22B3-4E0D-8879-524C81654FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287DD339-22B3-4E0D-8879-524C81654FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287DD339-22B3-4E0D-8879-524C81654FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96EA6C29-6372-4F87-A015-24AC17AC0E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EA6C29-6372-4F87-A015-24AC17AC0E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EA6C29-6372-4F87-A015-24AC17AC0E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EA6C29-6372-4F87-A015-24AC17AC0E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
