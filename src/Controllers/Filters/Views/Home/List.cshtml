@@ -1,0 +1,25 @@
+﻿@model IEnumerable<string>
+
+@{
+    View.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h2>Messages</h2>
+
+    <table>
+        <tr>
+            <th>
+                Messages
+            </th>
+        </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @item
+            </td>
+        </tr>
+    }
+
+    </table>

@@ -7,9 +7,6 @@
             Logger = logger;
         }
 
-        public GlobalLogging() : this(new Logger()) {
-        }
-
         public ILogger Logger { get; private set; }
 
         public void OnActionExecuting(ActionExecutingContext filterContext) {
